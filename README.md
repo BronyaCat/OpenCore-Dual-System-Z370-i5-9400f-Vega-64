@@ -7,11 +7,17 @@ CPU: i5-9400f
 GPU: Vega 64 with 260 Watts BIOS  
 MotherBoard: ASRock Z370M Pro4  
 PCIE Wifi Card: BCM94360CD From 小齐本本配件  
-  
+
 ## Mac OS  
 Version 10.15.6, fully functional EFI files.  
 
-Lastes Notes 2020-09-01  
+Lastes Notes 2020-09-05  
+Fix unknow black screen issue.  
+Add hibernation kext.    
+
+
+
+Notes 2020-09-01  
 Fix CPU frequency and sensor issue by CPUFriend and CPUFriendProvider.  
 Delete SSDT of fake NVram control，use native NVRAM on motherboard.  
 NO NEED to fix USB port on Z370.  
